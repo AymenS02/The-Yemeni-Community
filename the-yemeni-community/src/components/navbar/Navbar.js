@@ -4,7 +4,9 @@ import './Navbar.scss';
 function Navbar() {
   return (
     <div className="navbar">
-      <img className="star" src={"/redstar.png"} alt="Star" />
+      <div className="logo-container">
+        <img className="star" src={"/redstar.png"} alt="Star" />
+      </div>
       <div className="nav-links-container">
         <a href="/" className="nav-link">Home</a>
         <a href="/about" className="nav-link">About</a>

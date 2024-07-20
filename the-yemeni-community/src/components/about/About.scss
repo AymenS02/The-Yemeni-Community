@@ -1,0 +1,27 @@
+.about-container {
+  margin: 5vh 20vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #F3EED9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(253, 182, 182, 0.1);
+  height: auto;
+  border: 1px solid #A5162D;
+
+
+  h1 {
+      font-size: 2.5em;
+      color: #A5162D;
+      margin-bottom: 20px;
+  }
+
+  p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      color: #A5162D;
+      margin-bottom: 20px;
+  }
+}

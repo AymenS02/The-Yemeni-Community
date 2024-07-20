@@ -5,14 +5,23 @@
     align-items: center;
     flex-direction: row;
     background-color: #221d1d;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     border: 1rem;
 
-    
-    .star {
-      width: 40px; /* Adjust size as needed */
-      height: auto;
+    .logo-container {
       background-color: rgb(63, 191, 230);
-      padding: 2vh;
+      border-width: 3em;
+      border-left-color: #A5162D;
+      border-right-color: #A5162D;
+      border-top-color: #A5162D;
+      border-bottom-color: #A5162D;
+
+      .star {
+        width: 40px; /* Adjust size as needed */
+        height: auto;
+        padding: 2vh;
+        transform: rotate(15deg); /* Rotate by 30 degrees */
+      }
     }
 
     .nav-link {

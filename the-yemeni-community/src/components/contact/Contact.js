@@ -5,5 +5,9 @@ function Contact () {
         <div>Contact Me</div>
     )
 }
+// 45 Barlacke avenue
+// southyemenSYC@gmail.com
+// 905-920-5590
+// 289-700-2689
 
 export default Contact;
