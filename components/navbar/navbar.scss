@@ -1,0 +1,57 @@
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$text-color: #333;
+$background-color: #f9f9f9;
+$font-family: 'Arial, sans-serif';
+
+// Global styles
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+.App {
+  text-align: center;
+}
+
+// Navbar styles
+.navbar {
+  background-color: $primary-color;
+  padding: 1rem;
+  
+  .nav-link {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+// Section styles
+.section {
+  padding: 2rem;
+  margin: 2rem 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home, .about, .contact, .donations, .events {
+  &-header {
+    font-size: 2rem;
+    color: $primary-color;
+    margin-bottom: 1rem;
+  }
+  
+  &-content {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
