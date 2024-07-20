@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Donations from './components/Donations';
 import Events from './components/Events';
 import Navbar from './components/Navbar';
+import './App.scss';
 
 function App() {
   return (
