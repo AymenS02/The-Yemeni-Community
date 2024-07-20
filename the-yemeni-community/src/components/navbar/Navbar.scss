@@ -1,57 +1,43 @@
-// Variables
-$primary-color: #3498db;
-$secondary-color: #2ecc71;
-$text-color: #333;
-$background-color: #f9f9f9;
-$font-family: 'Arial, sans-serif';
+  // Navbar styles
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #221d1d;
+    border: 1rem;
 
-// Global styles
-body {
-  font-family: $font-family;
-  margin: 0;
-  padding: 0;
-  background-color: $background-color;
-  color: $text-color;
-}
-
-.App {
-  text-align: center;
-}
-
-// Navbar styles
-.navbar {
-  background-color: $primary-color;
-  padding: 1rem;
-  
-  .nav-link {
-    color: white;
-    margin: 0 1rem;
-    text-decoration: none;
     
-    &:hover {
-      color: $secondary-color;
+    .star {
+      width: 40px; /* Adjust size as needed */
+      height: auto;
+      background-color: rgb(63, 191, 230);
+      padding: 2vh;
+    }
+
+    .nav-link {
+      color: #F3EED9;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      justify-content: center; /* Center nav links horizontally */
+    }
+
+    .nav-link:hover {
+      transition: 0.2s;
+      color: #A5162D;
+    }
+
+  }
+
+  
+  // Responsive design
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: row;
+    }
+  
+    .nav-link {
+      margin: 0.5rem 0;
     }
   }
-}
-
-// Section styles
-.section {
-  padding: 2rem;
-  margin: 2rem 0;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.home, .about, .contact, .donations, .events {
-  &-header {
-    font-size: 2rem;
-    color: $primary-color;
-    margin-bottom: 1rem;
-  }
-  
-  &-content {
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-}

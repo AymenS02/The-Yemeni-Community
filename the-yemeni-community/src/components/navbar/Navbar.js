@@ -1,17 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.scss'; // Ensure you have a corresponding SCSS file for Navbar styles
+import './Navbar.scss';
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <Link className="nav-link" to="/">Home</Link>
-      <Link className="nav-link" to="/about">About</Link>
-      <Link className="nav-link" to="/contact">Contact</Link>
-      <Link className="nav-link" to="/donations">Donations</Link>
-      <Link className="nav-link" to="/events">Events</Link>
-    </nav>
+    <div className="navbar">
+      <img className="star" src={"/redstar.png"} alt="Star" />
+      <div className="nav-links-container">
+        <a href="/" className="nav-link">Home</a>
+        <a href="/about" className="nav-link">About</a>
+        <a href="/contact" className="nav-link">Contact</a>
+        <a href="/donations" className="nav-link">Donations</a>
+        <a href="/events" className="nav-link">Events</a>
+      </div>
+    </div>
   );
 }
 
 export default Navbar;
+

@@ -1,0 +1,34 @@
+// Home section styles
+.home {
+
+    .welcome-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #F3EED9;  // Light blue background
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+        max-width: 100%;
+        height: 100%;
+        margin: 0 20%;
+        margin-top: 6vh;
+        text-align: center;
+
+        .welcome-header {
+            color: #A5162D;  // Dark teal color
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+          }
+          
+          .welcome-content {
+            color: #A5162D;  // Darker teal color
+            font-size: 1.25rem;
+          }
+    }
+}
+      
+
+
+  
