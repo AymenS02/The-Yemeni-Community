@@ -7,31 +7,38 @@
     background-color: #221d1d;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     border: 1rem;
+    height: 6vh;
 
     .logo-container {
-      background-color: rgb(63, 191, 230);
       
       .star {
-        width: 40px; /* Adjust size as needed */
-        height: auto;
-        padding: 2vh;
-        transform: rotate(15deg); /* Rotate by 30 degrees */
+        width: auto; /* Adjust size as needed */
+        height: 6vh;
       }
     }
 
-    .nav-link {
-      color: #F3EED9;
-      text-decoration: none;
-      margin: 0 1rem;
-      font-weight: bold;
-      justify-content: center; /* Center nav links horizontally */
-    }
+    .nav-links-container {
+      display: flex;
+      flex-direction: row;
+      
+      .nav-link-container {
+        margin: 0;
+        padding: 0;
 
-    .nav-link:hover {
-      transition: 0.2s;
-      color: #A5162D;
+        .nav-link {
+          color: #F3EED9;
+          text-decoration: none;
+          margin: 0 1rem;
+          font-weight: bold;
+          justify-content: center; /* Center nav links horizontally */
+        }
+    
+        .nav-link:hover {
+          transition: 0.2s;
+          color: #A5162D;
+        }
+      }
     }
-
   }
 
   
