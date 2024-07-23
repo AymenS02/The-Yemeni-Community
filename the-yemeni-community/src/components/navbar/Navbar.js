@@ -15,6 +15,14 @@ function Navbar() {
           transition={{ type: 'spring', stiffness: 400, damping: 17 }}
           className="nav-link-container"
         >
+          <a href="/announcements" className="nav-link">Announcements</a>
+        </motion.div>
+        <motion.div 
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: 'spring', stiffness: 400, damping: 17 }}
+          className="nav-link-container"
+        >
           <a href="/" className="nav-link">Home</a>
         </motion.div>
         <motion.div 
@@ -23,7 +31,15 @@ function Navbar() {
           transition={{ type: 'spring', stiffness: 400, damping: 17 }}
           className="nav-link-container"
         >
-          <a href="/about" className="nav-link">About</a>
+          <a href="/heritage" className="nav-link">Heritage</a>
+        </motion.div>
+        <motion.div 
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: 'spring', stiffness: 400, damping: 17 }}
+          className="nav-link-container"
+        >
+          <a href="/services" className="nav-link">Services</a>
         </motion.div>
         <motion.div 
           whileHover={{ scale: 1.2 }}
