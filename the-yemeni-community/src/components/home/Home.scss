@@ -1,17 +1,18 @@
 // Home section styles
 .home {
-
+  margin: 0;
+  width: auto;
+  height: 100%;
   .welcome-box {
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      background-color: #F3EED9;  // Light blue background
+      background-color: #F3EED9; 
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       padding: 2rem;
       max-width: 100%;
-      height: 100%;
       margin: 0 20%;
       margin-top: 6vh;
       text-align: center;
